@@ -80,5 +80,5 @@
 Some AKAs for the bases are euro = palace, vag = ovaries, river = top right, top of the world = top left. LB1, LB2, LB3 are good lumber bases for new players, I refer to them in other sections.
 
 <div style="text-align:center;">
-    <img src="../img/filtered+text.png" width="1024">
+    <img src="img/filtered+text.png" width="1024">
 </div>
