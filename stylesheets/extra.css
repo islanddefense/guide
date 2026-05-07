@@ -1,0 +1,13 @@
+
+/* Hide the hardcoded "Made with Dracula" link */
+.footer-text {
+  display: none !important;
+}
+
+/* Add your own text via the parent div's ::after */
+.d-flex.drac-bg-cyan-green::after {
+  content: "Island Defense Guide by Lynx";
+  padding-left: 1%;
+  font-size: 0.8rem;
+  color: black;
+}
