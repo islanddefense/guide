@@ -1,0 +1,87 @@
+Single player is a great way to test your understanding of mechanics, these commands are useful to speed up testing.
+
+I have a version of the map which sets the color of units depending on what their current cliff height is, it's quite useful to play around with to figure out what's itemjumpable around mid in different wallings. Contact me if you wish to play around with this map, not sure if there is any interest by anyone for this so I haven't bothered to make it in a sharable state, but if only one person is interested I'll share it and post it here.
+
+- -gold # - Adds # to your current gold
+- -lumber # - Adds # to your current lumber
+- -int # - Adds # intelligence to selected hero
+- -agi # - Adds # agility to selected hero
+- -str # - Adds # strength to selected hero
+- -lvl # - sets # level to selected hero
+- -xp # - Sets # experience to selected hero
+- -hp # - Sets # health points to selected hero
+- -mp # - Sets # mana points to selected hero
+- -ms # - Sets # move speed to selected hero
+- -additem # - Spawns # random
+- -invul - Makes selected units invulnerable
+- -vul - Makes selected units vulnerable
+- -kill - Kills selected unit
+- -vis - Makes selected units visible
+- -invis - Makes selected units invisible
+- -colors - Displays player color number ids
+- -pathoff - Makes selected units Uncollide
+- -pathon - Makes selected units collide
+- -setcolor <color> - Sets your name and units color to specified
+- -owner <color> - Sets owner of selected unit to specified
+- -nocd - Turns off cooldown for all heroes
+- -cdon - Turns on cooldown for all heroes
+- -bindup/down/left/right <command> - Bind's specific arrow key to specified command
+- -mh - Reveals the map
+- -unitid - Shows selected units rawcode
+- -itemid - Shows item of first slot's raw code
+- -destid - Shows raw code of destructible in region made by -reg
+- -setname <name> - Sets your name to specified
+- -size # - Sets selected units to specified
+- -food # - Sets your food limit to specified
+- -nofood - Makes selected units not use food
+- -heal - Heals selected units
+- -copy # - Makes # copies of selected units
+- -unshare ## - Unshares player specified
+- -ally## - Allies with player specified
+- -unally ## - Unallies with player specified
+- -soff - unshares with everyone
+- -ground # - Changes ground to specified
+- -regmin - Click to set Minx and Miny
+- -regmax - Click to set Maxx and Maxy
+- -reg <kill/explode/color> - Set react to specified
+- -Add #### - Adds specified ability to selected units
+- -Remove #### - Removes specified ability of selected units
+- -g # - Adds gold to player
+- -l # - Adds lumber to player
+- -f # - Sets food of player
+- -spa # - Spawns specified unit/destructible to specified player
+- -sn # <name> - Sets specified name to specified player
+- -sc # <color> - Sets specified color to specified player
+- -area # - Changes the ground to the size and terrain specified, click where you want it
+- -noarea - Disables - area
+- -dead - Plays dead animation to selected units
+- -birth - Plays birth animation to selected structures
+- -stand - Plays stand animation to selected units
+- -attack - Plays attack animation to selected unit
+- -hear - Tells you what everyone is saying
+- -nohear - Turns -hear off
+- -noreplay - Disables replay
+- -kick ## <message> - Kicks specified player with specified message
+- -note - Sets patrol normal
+- -loc - Shows position X and Y of selected units
+- -stop - Disables selected units commands
+- -resume - Enables selected units commands
+- -time # - Sets time of day to specified
+- -autoh # - Autoheals unit to percent specified
+- -disable - Disables reacts made by -reg
+- -cheaton # - Turns cheats on for players specified
+- -cheatoff # - Turns cheats off for player specified
+- -unit # - creates unit at selected units location
+- -nounit - Disables -unit
+- -fast - Upgrades take no time
+- -ftest - gives resources
+- -bfast - build fas
+- -ufast - upgrade fast
+- -tele - click "patrol" to teleport to the destination
+- -shareall - gain control of all players
+- -share [number] - gain control of player 0-11, titan is number 10
+- -noshare [number] - give away control
+- -addhp [number] - increase maximum hp of selected unit
+- -owner [color] - changes the ownership of selected units
+- -spawn [id] - spawns the corresponding unitid or itemid
+- -list# - Replace # with a # between 1-9, lists out debug commands
