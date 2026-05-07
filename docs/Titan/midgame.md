@@ -26,9 +26,9 @@ As an ethical titan player myself my rule to cheesing is to only do it versus pl
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/ankhjump_compressed.mp4" type="video/mp4">
+        <source src="../img/ankhjump_compressed.mp4" type="video/mp4">
     </video>
     <video controls width="1080">
-        <source src="/img/mirrorjump_compressed.mp4" type="video/mp4">
+        <source src="../img/mirrorjump_compressed.mp4" type="video/mp4">
     </video>
 </div>

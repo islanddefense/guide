@@ -4,7 +4,7 @@ Hover over the map to practice a tier1 pearl.
 
 <div style="display:flex; justify-content:center;">
     <div class="flashlight-container">
-        <img src="/img/filtered.png" class="flashlight-image">
+        <img src="../img/filtered.png" class="flashlight-image">
         <div class="flashlight-overlay" id="overlay"></div>
     </div>
 </div>

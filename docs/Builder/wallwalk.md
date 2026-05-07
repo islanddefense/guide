@@ -26,7 +26,7 @@ Video showing how it's done. Video starts at normal speed and then slows down to
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/wallwalkc.mp4" type="video/mp4">
+        <source src="../img/wallwalkc.mp4" type="video/mp4">
     </video>
 </div>
 

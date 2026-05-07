@@ -66,5 +66,5 @@ Inventory hotkeys are used for items. They are designated to the Numpad <kbd>1</
 ### Default inventory keybinds vs with ahk script
 
 <div style="text-align:center;">
-    <img src="/img/ramp/invhotkeys.png" width="500">
+    <img src="../img/ramp/invhotkeys.png" width="500">
 </div>

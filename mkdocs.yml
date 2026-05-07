@@ -63,4 +63,5 @@ markdown_extensions:
 copyright: "© 2026 Your Name"
 extra_css:
   - stylesheets/extra.css
-repo_name: qwer
+repo_name: guide
+use_directory_urls: false

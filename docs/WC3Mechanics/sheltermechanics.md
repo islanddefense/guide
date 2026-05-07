@@ -5,7 +5,7 @@ Check video for reference, first example is correct and second is incorrect and 
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/shelter.mp4" type="video/mp4">
+        <source src="../img/shelter.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -13,6 +13,6 @@ This is obscure knowledge from gogblitz of the vampirism community. It is import
 
 Here's the build order for stronghold and hermit.
 <div style="text-align:center;">
-    <img src="/img/sh.png" width="480">
-    <img src="/img/hermit.png" width="480">
+    <img src="../img/sh.png" width="480">
+    <img src="../img/hermit.png" width="480">
 </div>

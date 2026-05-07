@@ -31,6 +31,6 @@ Here is a sped up early game of two different titan early games.
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/lynx_kami_tiny.mp4" type="video/mp4">
+        <source src="../img/lynx_kami_tiny.mp4" type="video/mp4">
     </video>
 </div>

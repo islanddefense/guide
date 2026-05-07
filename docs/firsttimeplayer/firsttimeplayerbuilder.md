@@ -22,6 +22,6 @@ Only gold when others are golding and always have your camera watching so you ar
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/firsttimerbuilder.mp4" type="video/mp4">
+        <source src="../img/firsttimerbuilder.mp4" type="video/mp4">
     </video>
 </div>

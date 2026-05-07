@@ -17,7 +17,7 @@ Titan has multiple ways to jump into our base with mirror, ankh, burrow, volt ul
 Having a hunter in your base can be great if managed properly. The problem with hunters in bases are titan will not start sieging until the hunter is nuked out and dead or it will chain the nuke deep in your base so you die. Flying and 1x1 hunters are exempt of course because you can withdraw them if titan starts nuking. You could think it's fine to have an empty slot in the tower area and a large empty area in the back where we blink back our hunter if low health, this is bad because we lose too much damage from not towering the base fully and the base will not be blinkproofed leaving it susceptible to be jumped. To fix this we can base in areas like heaven and give our hunter 2x ultimate tower boxes so it can jump in and out, freely. Check the video below. Builders with aquatic hunters can base near water to use hunters, however these bases are as of april 2026 weak and the benefits of having your hunter swim nearby doesn't outweigh the benefits other bases provide. 
 
 <video controls width="720">
-    <source src="/img/hunterbox.mp4" type="video/mp4">
+    <source src="../img/hunterbox.mp4" type="video/mp4">
 </video>
 
 ### Workerblock

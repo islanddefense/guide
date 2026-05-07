@@ -15,7 +15,7 @@ Here's a video showing both the correct and incorrect way in all directions.
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/sheeptag.mp4" type="video/mp4">
+        <source src="../img/sheeptag.mp4" type="video/mp4">
     </video>
 </div>
 

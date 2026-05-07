@@ -65,7 +65,7 @@ This is why it's so important for builders to always have vision of mound, to bl
 
 <div style="text-align:center;">
     <video controls width="520">
-        <source src="/img/teleport.mp4" type="video/mp4">
+        <source src="../img/teleport.mp4" type="video/mp4">
     </video>
 </div>
 

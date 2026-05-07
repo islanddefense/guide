@@ -63,7 +63,7 @@ This jump is interesting because it appears blocked by the shelter and builders 
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/wardjump.mp4" type="video/mp4">
+        <source src="../img/wardjump.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -80,7 +80,7 @@ Let's break down what's happening.
 8. The game jumps the titan.
 
 <div style="text-align:center;">
-    <img src="/img/ramp/zevveyjump.jpg" width="1080">
+    <img src="../img/ramp/zevveyjump.jpg" width="1080">
 </div>
 
 ### Example 2
@@ -89,7 +89,7 @@ A structure jump.
 
 <div style="text-align:center;">
     <video controls width="1080">
-        <source src="/img/buildingjump.mp4" type="video/mp4">
+        <source src="../img/buildingjump.mp4" type="video/mp4">
     </video>
 </div>
 
@@ -101,7 +101,7 @@ Breakdown:
 3. We reach square 155 and a valid spot is found and the builder is jumped there. The other violet spot (kind of)
 
 <div style="position: relative; display: inline-block; width: 100%;">
-  <img id="base-image" src="/img/structurejump.jpg" style="display: block; width: 100%; border-radius: 8px;">
+  <img id="base-image" src="../img/structurejump.jpg" style="display: block; width: 100%; border-radius: 8px;">
   <canvas id="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></canvas>
 </div>
 
