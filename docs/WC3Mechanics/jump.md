@@ -107,14 +107,19 @@ Breakdown:
 
 <script>
 (function() {
-  const DELAY_MS = 130; // milliseconds between each square — lower = faster, higher = slower
+  const DELAY_MS = 130;
 
   const img = document.getElementById('base-image');
   const canvas = document.getElementById('overlay');
   const ctx = canvas.getContext('2d');
 
-  const SQ = 32;
+  const BASE_WIDTH = 1080;  // design width
+  const BASE_SQ = 32;       // intended square size at full width
   const ORIGIN = { x: 0.4, y: 0.57 };
+
+  function getScale() {
+    return img.getBoundingClientRect().width / BASE_WIDTH;
+  }
 
   function buildSequence() {
     const steps = [];
@@ -149,6 +154,8 @@ Breakdown:
 
   function redraw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    const scale = getScale();
+    const SQ = BASE_SQ * scale;
     const ox = ORIGIN.x * canvas.width;
     const oy = ORIGIN.y * canvas.height;
     for (let i = 0; i < drawn; i++) {
@@ -165,7 +172,7 @@ Breakdown:
       ctx.strokeRect(px - SQ/2, py - SQ/2, SQ, SQ);
       ctx.globalAlpha = 1;
       ctx.fillStyle = '#fff';
-      ctx.font = 'bold 11px sans-serif';
+      ctx.font = `bold ${Math.round(11 * scale)}px sans-serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       ctx.fillText(i + 1, px, py);
@@ -177,7 +184,7 @@ Breakdown:
     drawn++;
     redraw();
     if (drawn >= sequence.length) {
-        setTimeout(() => { drawn = 0; redraw(); }, 3000);
+      setTimeout(() => { drawn = 0; redraw(); }, 3000);
     }
   }
 

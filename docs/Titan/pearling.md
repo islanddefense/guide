@@ -1,10 +1,6 @@
-### Pearl practice
-
-Hover over the map to practice a tier1 pearl.
-
 <div style="display:flex; justify-content:center;">
     <div class="flashlight-container">
-        <img src="../img/filtered.png" class="flashlight-image">
+        <img src="../img/filtered.png" class="flashlight-image" id="flashlightImg">
         <div class="flashlight-overlay" id="overlay"></div>
     </div>
 </div>
@@ -30,14 +26,23 @@ Hover over the map to practice a tier1 pearl.
 <script>
 const container = document.querySelector(".flashlight-container");
 const overlay = document.getElementById("overlay");
+const img = document.getElementById("flashlightImg");
+
+const BASE_WIDTH = 1080;   // the max-width / design width
+const BASE_RADIUS = 90;    // intended radius at full size
+
+function getScaledRadius() {
+    return (img.getBoundingClientRect().width / BASE_WIDTH) * BASE_RADIUS;
+}
 
 function updateFlashlight(x, y) {
+    const r = getScaledRadius();
     overlay.style.background = `
         radial-gradient(
-            circle 90px at ${x}px ${y}px,
+            circle ${r}px at ${x}px ${y}px,
             transparent 0,
-            transparent 90px,
-            rgba(0,0,0,0.4) 90px,
+            transparent ${r}px,
+            rgba(0,0,0,0.4) ${r}px,
             rgba(0,0,0,0.4) 100%
         )
     `;
@@ -45,11 +50,7 @@ function updateFlashlight(x, y) {
 
 container.addEventListener("mousemove", (e) => {
     const rect = container.getBoundingClientRect();
-
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-
-    updateFlashlight(x, y);
+    updateFlashlight(e.clientX - rect.left, e.clientY - rect.top);
 });
 
 updateFlashlight(200, 200);
