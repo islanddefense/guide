@@ -6,7 +6,7 @@ Instead I'll share my thoughts on some items.
 
 - **t1 pearl** okay nice item we get for free, in case we are poor and need to damage maxx it's okay to put it on mound and buy a full 6 slot of inventory of dmg items
 - **t2 pearl** necessary to buy after your first minion when builders are basing
-- **t3 pearl / msog** broken item if you can afford it once you got a minion
+- **t3 pearl / msog** broken item if you can afford it once you got a minion. The cooldown is unique to the user so you can swap it around multiple units to pearl many areas at once.
 - **gem of haste** best damage item when you are poor
 - **berserkers gem** great damage item which goes well with any other damage item
 - **titanic trident** great damage item
