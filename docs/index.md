@@ -12,6 +12,14 @@ Let's hope Island Defense has many years ahead of it, if not, all good and the c
 
 \- Lynx
 
+### Update November 2026
+
+The guide has soon been out for 6 months, in that time warcraft 3 has received major updates and Island Defense is still being worked on. Importantly item jump has been removed, the section for it will remain but a note is there warning people it no longer works. As Island Defense keeps changing I will keep this page updated, albeit not instantly.
+
+Looking back some parts of the guide were rushed and I'm not satisfied with them, in particular the first time player sections. Eventually I will rewrite them to be more digestable and pedagogical.
+
+I've created a discord server for this guide if you have any questions or just wish to disassociate from the main island defense discord community `https://discord.gg/GQaGaaSAFP`.
+
 ### Table of Contents
 
 - **[Home](index.md)**

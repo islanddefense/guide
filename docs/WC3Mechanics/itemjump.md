@@ -1,5 +1,8 @@
 # Item jump
 
+[!CAUTION]
+As of Island Defense 5.0 the item jumping mechanic has been removed.
+
 Item jump is another type of jump, contrary to all other jump it's hard coded into Island Defense and therefore it will not work for any other map. The system has had long history in Island Defense as it originated as a bug in the Warcraft III game engine where items dropped on the ground would not be pathable by invisible units. Melee players disliked this bug because it allowed blademaster to jump deep into enemy bases and harass their peasants so on August 8th 2018 blizzard released patch 1.30.0 which fixed this bug, and you could no longer item jump... Until April 2025 when it was added it back into the map.
 
 The same rules for cliff height applies to item jump, you can only jump to the same cliff height. Only a titan unit can jump with it, pirate and troll can try, but it won't work for them. 

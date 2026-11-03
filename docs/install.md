@@ -35,7 +35,8 @@ Once lobbies start going they will fill quickly, you need to watch the discord t
 
 The community is primarily found in the official island defense community discord server. 
 
-You can join it with this link [https://discord.gg/rNYy9UZf](https://discord.gg/rNYy9UZf) or by going to [https://islanddefense.net/](https://islanddefense.net/) to get redirected.
+- Main Island Defense discord: `https://discord.gg/rNYy9UZf`
+- Discord server for this guide: `https://discord.gg/GQaGaaSAFP`
 
 # Island Defense Media
 
